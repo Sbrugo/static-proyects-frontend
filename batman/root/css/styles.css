@@ -1,0 +1,46 @@
+/*Estilos UNIVERSALES*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+
+/*Estilos PARTICULARES*/
+/*Estilos del HEADER*/
+.title {
+    background-color: #C4C4C4;
+    font-size: 20px;
+    color:#005677;
+    letter-spacing: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title-text {
+    margin-left: 20px;
+}
+#titulo-principal {font-size: 35px;}
+header, main {
+    margin-bottom: 100px;
+}
+.center {text-align: center;}
+div #espacio {
+    height: 50px;
+    width: 50px;
+}
+.negrita {font-weight: bold;}
+.sin-punto {list-style: none;}
+footer {
+    text-align: center;
+    background-color: 
+    #005677;
+    color: 
+    #FFFFFF;
+    font-size: 20px;
+}
+.margin {
+    margin-left: 75px;
+}
+
+header {
+    background-color: #E6E6E6;
+}
