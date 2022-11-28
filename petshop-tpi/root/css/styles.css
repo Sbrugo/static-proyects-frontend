@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1025px;
+}
+#top {
+    background-color:#222222;
+    color:#F3F3F3;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slide {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+}
+.contenido {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    position: relative;
+    bottom: 25px;
+}
+div h2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 30px;
+    margin: 10px;
+    width: fit-content;
+}
+div h3 {
+    font-size: 16px;
+    margin: 10px;
+}
+div button {
+    height: 49px;
+    width: 141px;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    display: inline;
+}
+#nav, button {
+    background: #F0A83E;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.productos-destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background-color: 
+    #FBFAF6;
+    text-align: center;
+    height: 370px;
+    justify-content: space-between;
+    margin: 3%;
+    width: 265px;
+}
+.pd {
+    display: flex;
+    width: 1025px;
+}
+article > p {
+    color:#F0A83E
+}

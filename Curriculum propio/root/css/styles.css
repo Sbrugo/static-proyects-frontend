@@ -1,16 +1,26 @@
 /*Estilos UNIVERSALES*/
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 15px;
     color: black;
 }
-
+main {
+    width: 50%;
+}
+.img-principal {
+    display: flex;
+    float: right;
+    width: 200px;
+}
+header{
+    background-image: url(../img/imgtextura.webp);
+}
 /*Estilos PARTICULARES*/
 /*Estilos del HEADER*/
 .title {
-    background-color: #C4C4C4;
+    font-family: 'Merriweather', serif;
+    background-color: #FBEAEB;
     font-size: 20px;
-    color:#005677;
     letter-spacing: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -28,16 +38,16 @@ div #espacio {
 .sin-punto {list-style: none;}
 footer {
     text-align: center;
-    background-color: 
-    #005677;
-    color: 
-    #FFFFFF;
+    background-color: #FBEAEB;
     font-size: 20px;
 }
 .margin {
     margin-left: 75px;
 }
-
-header {
-    background-color: #E6E6E6;
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(../img/photo-1619824130478-2fb945b98ae1.webp);
 }

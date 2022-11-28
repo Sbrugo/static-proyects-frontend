@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 2vw;
+    height: 7vh;
+    justify-content: space-between;
+    width: 100vw;
+}
+.top {
+    list-style: none;
+    margin-right: 2vw;
+}
+.top li {
+    display: inline;
+}
+.img {
+    margin-left: 2vw;
+}

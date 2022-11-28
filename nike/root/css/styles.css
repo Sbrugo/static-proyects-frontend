@@ -1,0 +1,92 @@
+.flex {
+    display: flex;
+}
+* {
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100vw;
+}
+header img, header .menuicon {
+    height: 30%;
+    margin: 0 30px;
+}
+.menu {
+    justify-content: space-around;
+    list-style: none;
+}
+.menu li {
+    margin: 0 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.heroe {
+    height: 50vh;
+    margin: 5% auto;
+    width: 95%;
+}
+.primera {
+    background-image: url("../img/zapatilas.jpeg");
+}
+.contenido-heroe {
+    color: whitesmoke;
+    font-size: 5rem;
+    flex-direction: column;
+    justify-content: end;
+    margin: 30px 50px;
+}
+.contenido-heroe p {
+    font-size: 2rem;
+    margin: 0%;
+}
+.contenido-heroe h1 {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    margin: 0%;
+}
+.contenido-heroe .botones {
+    flex-direction: row;
+    margin: 0%;
+}
+.contenido-heroe .boton {
+    background-color: white;
+    border-radius: 15%;
+    box-shadow: none;
+    border: none;
+    font-size: 2rem;
+    height: 60px;
+    width: 140px;
+} 
+.segunda {
+    background-image: url("../img/publicidad.webp");
+}
+.tercera {
+    background-image: url("../img/runners.webp");
+}
+.cuarta {
+    background-color: grey;
+    background-image: url("../img/sports-bras.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.cards {
+    height: 50vh;
+    width: 95%;
+}
+.card {
+    align-content: center;
+    height: 50vh;
+    flex-direction: column;
+    margin: 4%;
+    width: 40%;
+}
+.card-content {
+    flex-direction: column;
+}

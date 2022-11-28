@@ -1,0 +1,65 @@
+.flex {
+    display: flex;
+}
+.top {
+    align-items: center;
+    background-color:#1CD1B0;
+    display: flex;
+    font-size: 2%;
+    height: 3vh;
+    width: 100vw;
+}
+.bottom {
+    background-color:#00669F;
+    box-shadow: 3px 3px 3px;
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+}
+.bottom h2 {
+    font-size: 30px;
+    align-self: center;
+}
+.card {
+    background-color:#F3F3F3;
+    border-radius: 15px;
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    width: 15vw;
+    margin: 30px;
+}
+.fondo {
+    align-items: flex-start;
+}
+.perfil {
+    align-items: center;
+    position: relative;
+    border-radius: 100px;
+    bottom: 90px;
+    left: 80px;
+    z-index: 4;
+    margin-bottom: 0%;
+}
+.center {
+    align-items: center;
+}
+
+.content h1 {
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.content h1, .content p {
+    position: relative;
+    bottom: 80px;
+    margin: 10px 20px;
+}
+.corazon {
+    justify-content: flex-start;
+    align-self: flex-start;
+    position: relative;
+    bottom: 175px;
+    left: 10px;
+}
